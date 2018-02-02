@@ -1,0 +1,18 @@
+
+                {
+                else
+                    break;
+            }
+            int countBottom = 0;
+            for (int i = 1; i <= Cons.CHESS_BOARD_WIDTH - point.X; i++)
+            {
+                if (point.X + i >= Cons.CHESS_BOARD_WIDTH || point.Y + i >= Cons.CHESS_BOARD_HEIGTH)
+                    break;
+
+                if (Matrix[point.Y + i][point.X + i].BackgroundImage == btn.BackgroundImage)
+                {
+                    break;
+            }
+
+
+            return countTop + countBottom >= 5;
