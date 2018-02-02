@@ -16,3 +16,4 @@
 
 
             return countTop + countBottom >= 5;
+            // Tôi là B và tôi đã chỉnh sửa code của ông
